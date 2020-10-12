@@ -1,0 +1,85 @@
+body{
+	background-color: #66ffff;
+	user-select: none; 
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 4px;
+	
+	padding: 40px;
+	max-width: 500px;
+	border-radius: 7px;
+	background-color: #e6e6e6;
+	font-family: "Impact";
+}
+
+.item{
+	background-color: #3399ff;
+	display: flex;
+	align-items: center;
+	font-size: 45px;
+	cursor: pointer;
+	font-weight: bold;
+	justify-content:center;
+}
+
+form{
+	width:100%;
+}
+
+input{
+	width: 500%;
+	height: 50px;
+	border: none;
+	font-size: 25px;
+	text-align: left;
+	outline: none;
+
+}
+
+.input{
+	grid-column: 1/-1;
+	width: 100px;
+}
+.out_1{
+	grid-column: 1/-1;
+	width: 100px;
+}
+.out_2{
+	grid-column: 1/-1;
+	width: 100px;
+
+}
+.out_3{
+	grid-column: 1/-1;
+	width: 100px;
+}
+
+.clear{
+	grid-column: 1/2;
+	background-color: #ffcccc;
+}
+.back{
+	grid-column: 0/2;
+	background-color: #ccccff;
+
+}
+.factorial{
+	grid-column: 0/1;
+	background-color: #ffcccc;
+}
+.square{
+	grid-column: 2/0;
+	background-color: #ccccff;
+}
+.equal{
+	grid-column: 4;
+	grid-row: 9/11;
+	background-color:#b3ffb3;
+}
+
+.zero{
+	grid-column: 1/3;
+}
