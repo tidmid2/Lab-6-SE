@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Калькулятор</title>
+	<link rel="stylesheet" href="style.css">
+	<script src ="typescript.js"> </script> 
+
+</head>
+<body>
+	<div class="container">
+		<div class="out_1"><form name = "area_1"><input type="text" id = "last_3" readonly></form></div>
+		<div class="out_2"><form name = "area_2"><input type="text" id = "last_2" readonly></form></div>
+		<div class="out_3"><form name = "area_3"><input type="text" id = "last_1" readonly></form></div>
+		<div class="input"><form name = "form"><input type="text" id = "text_area" readonly></form></div>
+		<div class="item clear" onclick="Clear()">C</div>
+		<div class="item factorial"  onclick="insert('!')">!</div>
+		<div class="item square" onclick = "insert('√')">&#8730;</div>
+		<div class="item back" onclick = "Back()">&larr;</div>
+		<div class="item" onclick = "insert('+')">+</div>
+		<div class="item" onclick = "insert('-')">-</div>
+		<div class="item" onclick = "insert('*')">*</div>
+		<div class="item" onclick = "insert('/')">/</div>
+		<div class="item" onclick = "insert('7')">7</div>
+		<div class="item" onclick = "insert('8')">8</div>
+		<div class="item" onclick = "insert('9')">9</div>
+		<div class="item" onclick = "insert(')')">)</div>
+		<div class="item" onclick = "insert('4')">4</div>
+		<div class="item" onclick = "insert('5')">5</div>
+		<div class="item" onclick = "insert('6')">6</div>
+		<div class="item" onclick = "insert('(')">(</div>
+		<div class="item" onclick = "insert('1')">1</div>
+		<div class="item" onclick = "insert('2')">2</div>
+		<div class="item" onclick = "insert('3')">3</div>
+		<div class="item equal" onclick = "Equal()">=</div>
+		<div class="item zero" onclick="insert('0')">0</div>
+		<div class="item" onclick="insert('.')">.</div>
+		
+	</div>
+</body>
+</html>
